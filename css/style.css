@@ -1,0 +1,20 @@
+table {
+    border-collapse:collapse;
+    width: 100%;
+}
+
+th , td{
+padding: 4px;
+text-align: center;
+}
+
+input{
+    width: 90%;
+}
+
+button{
+    margin: 2px;
+}
+body{
+    background-color: antiquewhite;
+}

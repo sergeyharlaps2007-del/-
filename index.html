@@ -3,46 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Таблица вещей</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <table border="1" width="110px">
-<thead>
-    <tr>
-     <th>Вид изделия</th>
-     <th>Год изготовления</th>
-     <th>Страна</th> 
-     <th>Длина(м)</th>
-    </tr> 
-</thead>
-<tbody>
-    <td>Джемпер</td>
-    <td>1999</td>
-    <td>Португалия</td>
-    <td>3</td>
-</tbody>
+<body> 
+    <h1>Таблица</h1>
+    <button id="add" >Добавить запись</button>
+    <table id="Table">
 
-<tbody>
-    <td>Шарф</td>
-    <td>1998</td>
-    <td>США</td>
-    <td>1073</td>
-</tbody>
+    <thead>
+<tr>
 
-<tbody>
-<td>Сандали</td>
-<td>2002</td>
-<td>Пакистан</td>
-<td>3.93</td>
-</tbody>
+<th>Вид изделия </th>
+<th>Год изготовления</th>
+<th>Страна</th>
+<th>Длина(м)</th>
+<th>Действия</th>
 
-<tfoot>
-    <td>Саквояж</td>
-    <td>2003</td>
-    <td>Бразилия</td>
-    <td>3.7</td>
-</tfoot>
-
+</tr>
+    </thead>
+    <tbody id="table-body"></tbody>
     </table>
+    <script src="js/dannie.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
